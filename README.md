@@ -6,10 +6,8 @@
 
 **Install**:
 
-Add target version after #
-
 ```bash
-$ npm i -D https://github.com/kinolanka/prettier-config.git#v1.0.0
+$ npm i -D @kinolanka/prettier-config
 ```
 
 **Edit `.prettierrc.json`**:
