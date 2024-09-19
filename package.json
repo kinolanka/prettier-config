@@ -2,14 +2,24 @@
   "name": "@kinolanka/prettier-config",
   "version": "1.0.0",
   "description": "Prettier config",
-  "main": "index.json",
-  "repository": {
-    "url": "kinolanka/js-packages",
-    "directory": "packages/prettier-config"
-  },
-  "homepage": "https://github.com/kinolanka/prettier-config#readme",
-  "author": "kinolanka",
   "license": "MIT",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "homepage": "https://github.com/kinolanka/prettier-config#readme",
+  "bugs": {
+    "url": "https://github.com/kinolanka/prettier-config/issues"
+  },
+  "author": "Volodymyr Mashkin <kinolanka@gmail.com> (https://kinolanka.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinolanka/prettier-config.git"
+  },
+  "files": [
+    "index.json"
+  ],
+  "main": "index.json",
   "scripts": {
     "local-release": "changeset version && changeset publish"
   },
